@@ -4,7 +4,7 @@ import Tweet from "./tweet";
 function App(){
   return(
     <div className="app">
-      <h1>Cirriculum Vitae</h1>
+      <h1>Cirriculum Vitaeeee</h1>
       <Tweet />
     </div>
   );
