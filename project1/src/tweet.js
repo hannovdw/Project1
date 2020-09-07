@@ -6,7 +6,7 @@ function Tweet(){
         <div className="tweet">
             <h3>Hanno Van der walt</h3>
             <p>0823054581</p>
-            <h3>BSc.I.T.</h3>
+            <h3>BSc.I.T</h3>
         </div>
     );
 }
