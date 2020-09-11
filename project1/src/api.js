@@ -20,7 +20,7 @@ export default class FetchRandomUser extends React.Component{
           <div>loading joke...</div>
          ) : (
           <div>
-           <div> {this.state.quote.value} l</div>
+           <div> {this.state.quote.value} </div>
           </div>
          )} 
        </div>

@@ -1,23 +1,38 @@
 import React from "react";
-import Tweet from "./tweet";
-import Api1 from "./api";
+import About from "./About";
+import Hobbies from"./Hobbies";
+import Nav from "./Nav";
+import Qualy from "./Qualy";
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Pic from "C:\\Users\\baren\\Desktop\\Studies\\323\\Project1\\project1\\src\\pic.JPG";
+
 
 
 
 function App(){
   return(
+    <Router>
     <div className="app">
-      <h1 className="header">Cirriculum Vitae</h1>
-      <img src = {Pic} alt="Pic" height="300" width="205" className="image" />
-      <Tweet />
-      <button className="button">About Me</button>
-      <button className="button">Quilifications</button>
-      <button className="button">Hobbies</button>
-      <Api1 />
-
+      <Nav/>
+      <Route path= "/" component={Home} />
+      <Route path= "/hobbies" component={Hobbies} />
+      <Route path= "/qualifications" component={Qualy} />
+      <Route path= "/about" component={About} />
     </div>
+    </Router>
   );
 }
+
+const Home = () => (
+  <div className="app">
+  <div className = "tweet">
+  <h3>Hanno Van der walt</h3>
+      <p>Cell: 0823054581</p>
+  <h3>BSc.I.T</h3>
+  </div>
+<img src = {Pic} alt="Pic" height="300" width="205" className="image" />
+<api/>
+</div>
+);
 
 export default App;
