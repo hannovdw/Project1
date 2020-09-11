@@ -10,12 +10,12 @@
   border: 2px solid black;
   border-radius: 40px;
   background:#d19b4ad5;
-  width: 600px;
   align-self: center;
   box-align: center;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  padding: 3px 2px;
   
 }
 

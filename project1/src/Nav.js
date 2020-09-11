@@ -1,15 +1,24 @@
 import React from "react";
 import "./App.css"
+import {Link} from 'react-router-dom';
 
 
 function Nav(){
   return(
     <div>
       <h1 className="header">Cirriculum Vitae</h1>
+      <Link to="/">
       <button className="button">Home</button>
+      </Link>
+      <Link to="/about">
       <button className="button">About Me</button>
+      </Link>
+      <Link to="/qualifications">
       <button className="button">Quilifications</button>
+      </Link>
+      <Link to="/hobbies">
       <button className="button">Hobbies</button>
+      </Link>
     </div>
   );
 }
