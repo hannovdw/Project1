@@ -3,6 +3,8 @@ import About from "./About";
 import Hobbies from"./Hobbies";
 import Nav from "./Nav";
 import Qualy from "./Qualy";
+import Twitter from "./twitter";
+import Edex from "./Edex";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Pic from "C:\\Users\\baren\\Desktop\\Studies\\323\\Project1\\project1\\src\\pic.JPG";
 
@@ -14,11 +16,14 @@ function App(){
     <Router>
     <div className="app">
       <Nav/>
+      <Twitter/>
       <Switch>
       <Route path= "/" exact component={Home} />
       <Route path= "/hobbies" component={Hobbies} />
       <Route path= "/qualifications" component={Qualy} />
       <Route path= "/about" component={About} />
+      <Route path= "/education" component={Edex} />
+
       </Switch>
     </div>
     </Router>

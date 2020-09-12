@@ -16,8 +16,11 @@ function Nav(){
       <Link to="/qualifications">
       <button className="button">Documents</button>
       </Link>
+      <Link to="/education">
+      <button className="button">Education</button>
+      </Link>
       <Link to="/hobbies">
-      <button className="button">Hobbies</button>
+      <button className="button">Tech used</button>
       </Link>
     </div>
   );

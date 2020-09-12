@@ -7,7 +7,7 @@ import Pic5 from "C:\\Users\\baren\\Desktop\\Studies\\323\\Project1\\project1\\s
 function Qualy(){
   return(
     <div className ="paragraph">
-        <h1 className = "head"><u>Documents</u></h1>
+        <h1 className = "head">Documents</h1>
         <h2><u>Matric Certificate</u></h2>
         <img src = {Pic3} alt="Pic" height="700" width="500" className="image" />
         <p></p>

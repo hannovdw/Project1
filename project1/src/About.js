@@ -5,7 +5,7 @@ import "./App.css"
 function About(){
   return(
     <div className= "paragraph">
-        <h1 className="head"><u>About Me</u></h1>
+        <h1 className="head">About Me</h1>
         <h2><u>Culture</u></h2>
           <p>
               I have been taking music lessons in guitar, electrical guitar and
