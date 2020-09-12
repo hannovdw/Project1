@@ -6,7 +6,7 @@ import Pic from "C:\\Users\\baren\\Desktop\\Studies\\323\\Project1\\project1\\sr
 function Home(){
   return(
     <div className="app">
-        <div className = "tweet">
+        <div className = "paragraph">
         <h3>Hanno Van der walt</h3>
             <p>Cell: 0823054581</p>
         <h3>BSc.I.T</h3>

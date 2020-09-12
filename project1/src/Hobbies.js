@@ -4,8 +4,8 @@ import "./App.css"
 
 function Hobbies(){
   return(
-    <div>
-        <h1>Hobbies</h1>
+    <div className = "paragraph">
+        <h1 className = "head">Hobbies</h1>
     </div>
   );
 }
