@@ -8,19 +8,19 @@ function Nav(){
     <div>
       <h1 className="header">Cirriculum Vitae</h1>
       <Link to="/">
-      <button className="button">Home</button>
+      <button className="btn">Home</button>
       </Link>
       <Link to="/about">
-      <button className="button">About Me</button>
+      <button className="btn">About Me</button>
       </Link>
       <Link to="/qualifications">
-      <button className="button">Documents</button>
+      <button className="btn">Documents</button>
       </Link>
       <Link to="/education">
-      <button className="button">Education</button>
+      <button className="btn">Education</button>
       </Link>
       <Link to="/hobbies">
-      <button className="button">Tech used</button>
+      <button className="btn">Tech used</button>
       </Link>
     </div>
   );

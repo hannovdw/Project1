@@ -30,7 +30,7 @@ function App(){
 
 const Home = () => (
   <div className="app">
-  <div className = "tweet">
+  <div className = "head">
   <h3>Hanno Van der walt</h3>
       <p>Cell: 0823054581</p>
   <h3>BSc.I.T</h3>
