@@ -9,12 +9,12 @@ function Qualy(){
     <div className ="paragraph">
         <h1 className = "head">Documents</h1>
         <h2><u>Matric Certificate</u></h2>
-        <img src = {Pic3} alt="Pic" height="700" width="500" className="image" />
+        <img src = {Pic3} alt="Pic" height="700" width="500" className="matimage" />
         <p></p>
         <h2><u>Identification Document</u></h2>
-        <img src = {Pic4} alt="Pic" height="250" width="450" className="image" />
+        <img src = {Pic4} alt="Pic" height="250" width="450" className="idimage" />
         <h2><u>Academic Report</u></h2>
-        <img src = {Pic5} alt="Pic" height="450" width="650" className="image" />
+        <img src = {Pic5} alt="Pic" height="450" width="650" className="uniimage" />
 
     </div>
   );

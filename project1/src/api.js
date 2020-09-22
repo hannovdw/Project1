@@ -7,7 +7,7 @@ export default class FetchRandomUser extends React.Component{
   }
 
   async componentDidMount() {
-    const url = "https://api.chucknorris.io/jokes/random";
+    const url = "http://quotes.rest/qod.json";
     const response = await fetch(url);
     const data = await response.json();
     this.setState({ quote: data, loading: false});
@@ -17,10 +17,10 @@ export default class FetchRandomUser extends React.Component{
     return(
        <div> 
          {this.state.loading || !this.state.quote ? (
-          <div>loading joke...</div>
+          <div>loading quote...</div>
          ) : (
           <div>
-           <div> {this.state.quote.value} </div>
+           <div> {this.state.contents.quotes[0].quote} </div>
           </div>
          )} 
        </div>
