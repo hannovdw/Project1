@@ -8,10 +8,11 @@ function Hobbies(){
         <h1 className = "head">Tech used</h1>
         <p>
           <ul className="list">
+            <li>Source Control: Github</li>
             <li>Code Editing: Visual Studio Code</li>
             <li>Backend Coding: NodeJS</li>
             <li>Library: React</li>
-            <li>Hosting: Amazon web Service</li>
+            <li>Hosting: Github Pages</li>
             <li>HTML Editing</li>
             <li>CSS Styling</li>
             <li>API Integration</li>

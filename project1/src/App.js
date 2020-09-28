@@ -4,8 +4,6 @@ import Hobbies from"./Hobbies";
 import Nav from "./Nav";
 import Qualy from "./Qualy";
 import Edex from "./Edex";
-import QuoteApi from "./QuoteApi";
-import Api from "./api";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Pic from "C:\\Users\\baren\\Desktop\\Studies\\323\\Project1\\project1\\src\\pic.JPG";
 
@@ -31,7 +29,6 @@ function App(){
   );
 }
 
-let quotee = 'Find a purpose in life so big it will challenge every capacity to be at your best.';
 
 function getQuote()
 {
@@ -51,26 +48,35 @@ function getQuote()
   .then(function(quoteret){
     stringed = quoteret.toString();
     console.log(stringed);
-    quotee = stringed;
+    setQuote(stringed);
     return stringed;
+
   })
   .catch((err) => {
     console.error(err);
   })
+}
+let quotefinal ="";
+function setQuote(quote)
+{
+  console.log(quote);
+  quotefinal = quote;
+  console.log(quotefinal);
 }
 
 
 const Home = () => (
   
   <div className="app">
+    {getQuote()}
   <div className = "head">
-  <h3>Hanno Van der walt</h3>
+  <h3>Hanno Van der walt{getQuote()}</h3>
       <p>Cell: 0823054581</p>
   <h3>BSc.I.T</h3>
   </div>
+  <p h1 className = "quote">Daily API quote: {quotefinal}</p>
+
 <img src = {Pic} alt="Pic" height="300" width="205" className="homeimage" />
-<h1>{getQuote()}</h1>
-<p h1 className = "head">Daily API quote: {quotee}</p>
 </div>
 );
 
