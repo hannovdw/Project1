@@ -5,7 +5,7 @@ import "./App.css"
 function Edex(){
   return(
     <div className = "paragraph">
-        <h1 className = "head">Education/Experience</h1>
+        <h1 className = "head">Education</h1>
         <h2><u>Secondary Education</u> </h2>
         <h3>Hartbeespoort Highschool</h3>
         <p>Passed matric – December 2016 (National Senior Certificate

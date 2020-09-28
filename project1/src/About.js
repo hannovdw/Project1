@@ -19,7 +19,6 @@ function About(){
           knowledge of everything around me.
           </p>
         <h2><u>Sports</u></h2>
-          <p>
             <ul className="list" >
               <li>Mountain Biking – School Team</li>
               <li>Scuba Diving (Open Water Qualification)</li>
@@ -29,7 +28,6 @@ function About(){
               <li>North West University canoe club.</li>
 
             </ul>
-          </p>
         <h2><u>Conclusion</u></h2>
         <p>
         I am a creative person who likes

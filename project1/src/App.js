@@ -3,20 +3,22 @@ import About from "./About";
 import Hobbies from"./Hobbies";
 import Nav from "./Nav";
 import Qualy from "./Qualy";
+import Twit from "./Twitter"
 import Edex from "./Edex";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Pic from "C:\\Users\\baren\\Desktop\\Studies\\323\\Project1\\project1\\src\\pic.JPG";
 
-
-
+let quotefinal ="";
 
 function App(){
   return(
+    
     <Router>
     <div className="app">
       <Nav/>
       <Switch>
-      <Route path= "/" exact component={Home} />
+      <Route exact path= "/" component={Home} />
+      <Route path= "/Project1/" component={Home} />
       <Route path= "/Project1" component={Home} />
       <Route path= "/hobbies" component={Hobbies} />
       <Route path= "/qualifications" component={Qualy} />
@@ -56,7 +58,7 @@ function getQuote()
     console.error(err);
   })
 }
-let quotefinal ="";
+
 function setQuote(quote)
 {
   console.log(quote);
@@ -68,15 +70,16 @@ function setQuote(quote)
 const Home = () => (
   
   <div className="app">
-    {getQuote()}
+  {getQuote()}
+  {getQuote()}
   <div className = "head">
   <h3>Hanno Van der walt{getQuote()}</h3>
       <p>Cell: 0823054581</p>
   <h3>BSc.I.T</h3>
   </div>
   <p h1 className = "quote">Daily API quote: {quotefinal}</p>
-
-<img src = {Pic} alt="Pic" height="300" width="205" className="homeimage" />
+<img src = {Pic} alt="Picture" height="300" width="205" className="homeimage" />
+<Twit/>
 </div>
 );
 

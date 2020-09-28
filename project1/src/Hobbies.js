@@ -6,7 +6,6 @@ function Hobbies(){
   return(
     <div className = "paragraph">
         <h1 className = "head">Tech used</h1>
-        <p>
           <ul className="list">
             <li>Source Control: Github</li>
             <li>Code Editing: Visual Studio Code</li>
@@ -18,7 +17,6 @@ function Hobbies(){
             <li>API Integration</li>
             <li>http://hannovdw.github.io/Project1</li>
           </ul>
-        </p>
     </div>
   );
 }
