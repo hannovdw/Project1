@@ -35,12 +35,14 @@ function App(){
 const Home = () => (
   <div className="app">
   <div className = "head">
-  <h3>Hanno Van der walt</h3>
-      <p>Cell: 0823054581</p>
-  <h3>BSc.I.T</h3>
+  <h1>Hanno Van der walt</h1>
+  <h2>BSc.I.T</h2>
+  <p>Cell: 0823054581</p>
   </div>
 <img src = {Pic} alt="Picture" height="300" width="205" className="homeimage" />
-{ApiMain()}
+<p className = "hiden">
+<ApiMain/>
+</p>
 </div>
 );
 

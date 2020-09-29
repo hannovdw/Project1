@@ -7,6 +7,7 @@ function Nav(){
   return(
     <div>
       <h1 className="header">Cirriculum Vitae</h1>
+      <p className="butback">
       <Link to="/">
       <button className="btn">Home</button>
       </Link>
@@ -25,7 +26,7 @@ function Nav(){
       <Link to="/api">
       <button className="btn">API</button>
       </Link>
-
+      </p>
     </div>
   );
 }
