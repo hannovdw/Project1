@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "960833d3fc942c16052d6408c983dfc2",
+    "revision": "f87a1c63183a7a92dacceab5cb3db802",
     "url": "/Project1/index.html"
   },
   {
-    "revision": "a672630b99ccc9f9e339",
-    "url": "/Project1/static/css/main.ff6bff97.chunk.css"
+    "revision": "a185aa39313d3f7ad016",
+    "url": "/Project1/static/css/main.62a3ec53.chunk.css"
   },
   {
     "revision": "9d969e44bae731a165ed",
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Project1/static/js/2.2b586ba9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a672630b99ccc9f9e339",
-    "url": "/Project1/static/js/main.7d0d8af0.chunk.js"
+    "revision": "a185aa39313d3f7ad016",
+    "url": "/Project1/static/js/main.e470c677.chunk.js"
   },
   {
     "revision": "09b97cdda13649428a13",
     "url": "/Project1/static/js/runtime-main.f0ea157e.js"
   },
   {
-    "revision": "42653c6ec6cda35228de0e9c2cd263fd",
-    "url": "/Project1/static/media/bg.42653c6e.jpg"
+    "revision": "91f87c8d73409896f6bb2fe80234b285",
+    "url": "/Project1/static/media/WPnew.91f87c8d.jpg"
   },
   {
     "revision": "560bb9509fb9359bdec296d346b2ef29",
