@@ -33,14 +33,15 @@ function getQuote()
 function setQuote(quote)
 {
   quotefinal = quote;
-  console.log(quotefinal);
 }
+
 
 
 function QuoteAPI(){
   return(
     <div className ="paragraph">
         {getQuote()}
+
         <p>{quotefinal}</p>
     </div>
   );
