@@ -38,7 +38,7 @@ function getQuote()
   let edited = '';
   let stringed = '';
 
-  fetch('http://quotes.rest/qod.json')
+  fetch('https://quotes.rest/qod.json')
   .then(function(response){
     return response.json();
   })
@@ -61,7 +61,6 @@ function getQuote()
 
 function setQuote(quote)
 {
-  console.log(quote);
   quotefinal = quote;
   console.log(quotefinal);
 }

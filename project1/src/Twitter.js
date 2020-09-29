@@ -15,8 +15,14 @@ function getTwit()
         access_token_secret:  accessTokenSecret,
       });
 
-      T.get('search/tweets',  { q: '#ElonMusk since:2020-04-15', count: 10 }, function(err, data, response) {
-      })
+      T.get('search/tweets', { q: '#ElonMusk since:2020-04-15', count: 10 }, function(err, data, response) {
+//        const tweets = data.statuses
+ //       .map(tweet => `LANG: ${(tweet.text)} : ${tweet.text}`) 
+ //       .map(tweet => tweet.text)
+ //       .filter(tweet => tweet.toLowerCase().includes('ElonMusk'));
+ //       console.log(tweets);
+        })
+       
 }
 
 function Twitter(){
