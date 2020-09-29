@@ -3,8 +3,10 @@ import About from "./About";
 import Hobbies from"./Hobbies";
 import Nav from "./Nav";
 import Qualy from "./Qualy";
-import Twit from "./Twitter"
+import QuoteAPI from "./QuoteAPI";
+import Twit from "./Twitter";
 import Edex from "./Edex";
+import ApiMain from "./ApiMain";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Pic from "C:\\Users\\baren\\Desktop\\Studies\\323\\Project1\\project1\\src\\pic.JPG";
 
@@ -22,6 +24,7 @@ function App(){
       <Route path= "/Project1" component={Home} />
       <Route path= "/hobbies" component={Hobbies} />
       <Route path= "/qualifications" component={Qualy} />
+      <Route path= "/api" component={ApiMain} />
       <Route path= "/about" component={About} />
       <Route path= "/education" component={Edex} />
 
@@ -67,10 +70,7 @@ function setQuote(quote)
 
 
 const Home = () => (
-  
   <div className="app">
-  {getQuote()}
-  {getQuote()}
   <div className = "head">
   <h3>Hanno Van der walt{getQuote()}</h3>
       <p>Cell: 0823054581</p>
@@ -79,6 +79,7 @@ const Home = () => (
   <p h1 className = "quote">Daily API quote: {quotefinal}</p>
 <img src = {Pic} alt="Picture" height="300" width="205" className="homeimage" />
 <Twit/>
+<QuoteAPI/>
 </div>
 );
 

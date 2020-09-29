@@ -22,14 +22,13 @@ function getTwit()
  //       .filter(tweet => tweet.toLowerCase().includes('ElonMusk'));
  //       console.log(tweets);
         })
-       
+ //     return tweets
 }
 
 function Twitter(){
-  getTwit();
     return(
       <div>
-        getTwit();
+       <h1>{getTwit()}</h1> 
       </div>
     );
   }

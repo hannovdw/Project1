@@ -22,6 +22,10 @@ function Nav(){
       <Link to="/hobbies">
       <button className="btn">Tech used</button>
       </Link>
+      <Link to="/api">
+      <button className="btn">API</button>
+      </Link>
+
     </div>
   );
 }
