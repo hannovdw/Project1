@@ -40,6 +40,7 @@ const Home = () => (
   <h3>BSc.I.T</h3>
   </div>
 <img src = {Pic} alt="Picture" height="300" width="205" className="homeimage" />
+{ApiMain()}
 </div>
 );
 
