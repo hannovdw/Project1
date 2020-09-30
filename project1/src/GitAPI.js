@@ -77,7 +77,7 @@ function QuoteAPI(){
         <p>Project Name: {projectName}</p>
         <p>Project Language: {projectLanguage}</p>
         <p>Date Created: {created}</p>
-        <p>Repository URL: {repoURL}</p>
+        <p className="git">Repository URL: {repoURL}</p>
     </div>
   );
 }

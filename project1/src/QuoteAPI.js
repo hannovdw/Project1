@@ -39,7 +39,7 @@ function setQuote(quote)
 
 function QuoteAPI(){
   return(
-    <div className ="paragraph">
+    <div className ="git">
         {getQuote()}
 
         <p className="git">{quotefinal}</p>
