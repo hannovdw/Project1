@@ -38,9 +38,14 @@ const Home = () => (
   <h1>Hanno Van der walt</h1>
   <h2>BSc.I.T</h2>
   <p>Cell: 0823054581</p>
+  <p>Email: Hannovdw1998@gmail.com</p>
+  <p>ID: 9809285030081</p>
+  <p>Nationality: RSA</p>
+
   </div>
-<img src = {Pic} alt="Picture" height="300" width="205" className="homeimage" />
+<img src = {Pic} alt="Picture" height="" width="" className="homeimage" />
 <p className = "hiden">
+<ApiMain/>
 <ApiMain/>
 </p>
 </div>

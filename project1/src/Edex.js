@@ -6,18 +6,18 @@ function Edex(){
   return(
     <div className = "paragraph">
         <h1 className = "head">Education</h1>
-        <h2><u>Secondary Education</u> </h2>
-        <h3>Hartbeespoort Highschool</h3>
+        <h2 className="heading">Secondary Education </h2>
+        <p className="heading">Hartbeespoort Highschool</p>
         <p>Passed matric – December 2016 (National Senior Certificate
-        attached) </p>
-        <h2><u>Tertiary Education</u> </h2>
+        attached under documents) </p>
+        <h2 className="heading">Tertiary Education </h2>
         <p>
         Final year Bachelors of Science in Information Technology(BSc
         IT)student at the North West University. Anticipated year of completion :
         2020.(Attatched is a page with all subjects passed and all subjects
         currently busy with)
         </p>
-        <h2><u>Work Experience</u> </h2>
+        <h2 className="heading">Work Experience </h2>
         <ul className="list">
           <li>WAITER (2015) Worked at Frenchtoast Koffie Kafee as a waiter.
           Contact person: Paul Kruger 082 441 0095 </li>

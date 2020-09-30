@@ -42,7 +42,7 @@ function QuoteAPI(){
     <div className ="paragraph">
         {getQuote()}
 
-        <p>{quotefinal}</p>
+        <p className="git">{quotefinal}</p>
     </div>
   );
 }
